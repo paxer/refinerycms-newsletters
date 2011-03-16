@@ -1,0 +1,24 @@
+en:
+  shared:
+    admin:
+      image_picker:
+        image: image
+  plugins:
+    newsletters:
+      title: Newsletters
+  admin:
+    newsletters:
+      index:
+        title: Newsletters
+        create_new: Add New Newsletter
+        reorder: Reorder Newsletters
+        reorder_done: Done Reordering Newsletters
+        sorry_no_results: Sorry! There are no results found.
+        no_items_yet: There are no Newsletters yet. Click "Add New Newsletter" to add your first newsletter.
+      newsletter:
+        view_live_html: View this newsletter live <br/><em>(opens in a new window)</em>
+        edit: Edit this newsletter
+        delete: Remove this newsletter forever
+  newsletters:
+    show:
+      other: Other Newsletters

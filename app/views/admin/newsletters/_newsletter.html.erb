@@ -1,0 +1,21 @@
+<li class='clearfix record <%= cycle("on", "on-hover") %>' id="<%= dom_id(newsletter) -%>">
+  <span class='title'>
+    <%= newsletter.title %>
+    <span class="preview">&nbsp;</span>
+  </span>
+
+  <span class='actions' style="width:270px">
+      <%= newsletter.emails_sent %> emails sent at <%= newsletter.updated_at.strftime("%d/%m/%Y")%>
+    <%= link_to refinery_icon_tag("application_go.png"), newsletter_url(newsletter),
+        :title => t('.view_live_html'),
+        :target => "_blank" %>
+    <%= link_to refinery_icon_tag("application_edit.png"), edit_admin_newsletter_path(newsletter),
+         :title => t('.edit') %>
+    <%= link_to refinery_icon_tag("delete.png"), admin_newsletter_path(newsletter),
+        :class => "cancel confirm-delete",
+        :title => t('.delete'),
+        :confirm => t('message', :scope => 'shared.admin.delete', :title => newsletter.title),
+        :method => :delete %>
+  </span>
+
+</li>

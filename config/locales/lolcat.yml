@@ -1,0 +1,24 @@
+lolcat:
+  shared:
+    admin:
+      image_picker:
+        image: IMAGE
+  plugins:
+    newsletters:
+      title: Newsletters
+  admin:
+    newsletters:
+      index:
+        title: Newsletters
+        create_new: CREATE NEW Newsletter
+        reorder: REORDR Newsletters
+        reorder_done: DUN REORDERIN Newsletters
+        sorry_no_results: SRY! THAR R NO RESULTS FINDZ.
+        no_items_yet: THAR R NO Newsletters YET. CLICK "CREATE NEW Newsletter" 2 ADD UR FURST newsletter.
+      newsletter:
+        view_live_html: VIEW DIS newsletter LIV <BR/><EM>(OPENS IN NEW WINDOW)</EM>
+        edit: EDIT DIS newsletter
+        delete: REMOOV DIS newsletter FOREVR
+  newsletters:
+    show:
+      other: OTHR Newsletters

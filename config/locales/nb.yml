@@ -1,0 +1,20 @@
+nb:
+  plugins:
+    newsletters:
+      title: Newsletters
+  admin:
+    newsletters:
+      index:
+        title: Newsletters
+        create_new: Lag en ny Newsletter
+        reorder: Endre rekkefølgen på Newsletters
+        reorder_done: Ferdig å endre rekkefølgen Newsletters
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen Newsletters enda. Klikk på "Lag en ny Newsletter" for å legge til din første newsletter.
+      newsletter:
+        view_live_html: Vis hvordan denne newsletter ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+        edit: Rediger denne newsletter
+        delete: Fjern denne newsletter permanent
+  newsletters:
+    show:
+      other: Andre Newsletters
